@@ -4,3 +4,8 @@ function createPost() {
   const commentsTemplate = _.template(document.getElementById("comments-template").innerHTML);
   
 }
+
+
+function postComment() {
+  var commentTemplate = _.template(document.getElementById("comment-template").innerHTML);
+}
