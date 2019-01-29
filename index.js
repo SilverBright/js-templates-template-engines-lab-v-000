@@ -3,6 +3,7 @@ function createPost() {
   const postTemplate = _.template(document.getElementById("post-template").innerHTML);
   const commentsTemplate = _.template(document.getElementById("comments-template").innerHTML);
   
+  
 }
 
 
