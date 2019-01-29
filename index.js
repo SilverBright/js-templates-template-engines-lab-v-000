@@ -5,7 +5,6 @@ function createPost() {
   const postTitle = document.getElementById("postTitle").value;
   const postAuthor = document.getElementById("postAuthor").value;
   const post = document.getElementById("postBody").value;
-  
 }
 
 
