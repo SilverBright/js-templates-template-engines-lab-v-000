@@ -14,6 +14,14 @@
       </form>
     </main>
     
+    <script id="post-template" type="text/x-lodash-template">
+      <article>
+        <header><h2><%- title %></h2><header>
+        <p><%- body %></p>
+        <footer>Posted by: <%= poster %></footer>
+      </article>
+    </script>
+    
     <script src="node_modules/lodash/lodash.min.js"></script>
     <script src="index.js"></script>
     <!-- Open this file and call `mocha.run()` in console to run tests -->
