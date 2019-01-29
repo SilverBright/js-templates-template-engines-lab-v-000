@@ -6,6 +6,6 @@ function createPost() {
 
 function postComment() {
   const commentTemplate = _.template(document.getElementById("comment-template").innerHTML);
-  let commentsTemplate = document.getElementById("comments-template");
+  const commentsTemplate = document.getElementById("comments-template");
 
 }
